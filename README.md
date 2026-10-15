@@ -31,3 +31,10 @@ Here is the visual progression of the autonomous driving scripts (`cr_1` to `cr_
     <td><img src="images_captured/cr_7.gif" width="200"/></td>
   </tr>
 </table>
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/aparna7ap7/carla-autonomous-driving-progression.git
+cd carla-autonomous-driving-progression
