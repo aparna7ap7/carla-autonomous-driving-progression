@@ -32,7 +32,24 @@ Here is the visual progression of the autonomous driving scripts (`cr_1` to `cr_
   </tr>
 </table>
 
+## Project Structure
 
+The project is organized into sequential examples (`cr_1` to `cr_7`) located in their respective folders, demonstrating increasing complexity:
+
+* `cr_1/`: Basic vehicle spawn and fixed spectator setup[cite: 10].
+* `cr_2/`: Constant vehicle throttle and smooth spectator following[cite: 10].
+* `cr_3/`: Integration of Pygame camera display and basic Matplotlib plotting (X-coord, Speed)[cite: 10].
+* `cr_4/`: Simple waypoint following with a basic 3-state speed controller[cite: 10].
+* `cr_5/`: Waypoint following using a PID controller for speed regulation[cite: 10].
+* `cr_6/`: Waypoint following with PID speed control and Stanley steering control, including path plotting[cite: 10].
+* `cr_7/`: Adds obstacle detection (`sensor.other.obstacle`), spawns a static obstacle, and implements emergency braking logic, showing the obstacle on the plot[cite: 10].
+
+* `tools/`: Contains reusable helper modules:
+  * `pid_controller.py`: PID controller implementation[cite: 10].
+  * `pygame_display.py`: Manages the Pygame camera view window[cite: 10].
+  * `plotter_x.py`: Matplotlib plotter for X-coordinate and speed[cite: 10].
+  * `plotter_path.py`: Matplotlib plotter for X-Y trajectory and speed[cite: 10].
+  * `plotter_path_obstacle.py`: Matplotlib plotter including obstacle visualization[cite: 10].
 
 ## Installation
 
